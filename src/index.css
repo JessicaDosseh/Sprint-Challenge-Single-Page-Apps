@@ -1,7 +1,11 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px;
   font-family: sans-serif;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-repeat: no-repeat; 
+  height: auto;
+  background-size: cover;
 }
 
 main {
@@ -9,9 +13,21 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background: yellowgreen;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.navLink{
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background: black;
+  text-decoration: none;
+}
+
+.navLink:hover{
+  background: orange;
 }
 
 .grid-view {
@@ -36,4 +52,15 @@ main {
 
 header h1 {
   text-align: center;
+  color: white;
+}
+
+.Characters{
+  background: lightcoral;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: white;
 }
